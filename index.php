@@ -1,6 +1,6 @@
 <html lang="tr">
 <head>
-<link rel="stylesheet" href="renk.css">
+<link rel="stylesheet" href="../../renk.css">
 <title>--Resim Galerisi--</title>
 </head>
 <body bgcolor="bisque">
@@ -35,7 +35,7 @@ if(isset($_POST["kulad"])&& (isset($_POST["sifre"]))){
 </tr>
 <tr>
 <td>
-<button type="submit" name="giriş" id="tikla">Giriş</button>
+<button type="button" class="btn btn-success">Giriş</button>
 </td>
 </tr>
 </form>
