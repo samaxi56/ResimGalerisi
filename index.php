@@ -1,22 +1,21 @@
-<html lang="tr">
+﻿<html>
 <head>
-<link rel="stylesheet" href="../../renk.css">
-<title>--Resim Galerisi--</title>
+<link rel="stylesheet" href="ResimGalerisi/renk.css">
 </head>
 <body bgcolor="bisque">
 <center>
-<div id="arka">
+
 <?php
 
 if(isset($_POST["kulad"])&& (isset($_POST["sifre"]))){
 	if($_POST["kulad"]=="osman" && $_POST["sifre"]=="1995")
-	echo "Hoş Geldiniz";
+	echo "Hoş Geldiniz<hr>";
 	else
-	echo "Kullanıcı adı veya şifre yalnış";
+	echo "Kullanıcı adı veya şifre yalnış<hr>";
 }
 ?>
 
-
+<div id="arka">
 <body bgcolor="#FF0000">
 
 <label>ÜYE GİRİŞİ</label>
@@ -35,7 +34,7 @@ if(isset($_POST["kulad"])&& (isset($_POST["sifre"]))){
 </tr>
 <tr>
 <td>
-<button type="button" class="btn btn-success">Giriş</button>
+<button type="submit" name="giris">Giriş</button>
 </td>
 </tr>
 </form>
