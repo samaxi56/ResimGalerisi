@@ -2,8 +2,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="arkaplan.css">
 </head>
-<body background="Resim/Arka/image.jpg">
-<center>
+<body bgcolor="#333333">
 
 <?php
 
@@ -16,11 +15,10 @@ if(isset($_POST["kulad"])&& (isset($_POST["sifre"]))){
 		echo "<hr>Kullanıcı adı veya şifre yanlış<hr>";
 		}
 ?>
-
 <div id="arkaplan">
-<body>
-
-<label>ÜYE GİRİŞİ</label>
+  <body>
+  
+  <label>ÜYE GİRİŞİ</label>
 <hr>
 <form method="post">
 <input type="text" name="kulad" placeholder="Üye adı"/><br/>
