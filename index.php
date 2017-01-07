@@ -1,6 +1,6 @@
 ﻿<html>
 <head>
-<link rel="stylesheet" href="ResimGalerisi/renk.css">
+<link rel="stylesheet" type="text/css" href="ResimGalerisi/renk.css">
 </head>
 <body bgcolor="bisque">
 <center>
@@ -9,7 +9,7 @@
 
 if(isset($_POST["kulad"])&& (isset($_POST["sifre"]))){
 	if($_POST["kulad"]=="osman" && $_POST["sifre"]=="1995")
-	echo "Hoş Geldiniz<hr>";
+	include("anasayfa.php");
 	else
 	echo "Kullanıcı adı veya şifre yalnış<hr>";
 }
