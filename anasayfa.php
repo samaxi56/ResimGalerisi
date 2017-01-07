@@ -8,9 +8,12 @@ img{
 	border: 1px solid #000;
 	width:250px;
 	height:250px;
-	margin:7px;
+	margin:5px;
 	border-radius:5px;
 	box-shadow: 5px 5px 5px #000;
+}
+img:hover{
+	opacity:0.6;
 }
 
 </style>
