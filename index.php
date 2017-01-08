@@ -17,7 +17,7 @@ if(isset($_POST["kulad"])&& (isset($_POST["sifre"]))){
 ?>
 <div id="arkaplan">
   <body>
-  
+  <label>Kullanıcı adı-- Osman .şifre--1995</label><br>
   <label>ÜYE GİRİŞİ</label>
 <hr>
 <form method="post">
