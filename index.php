@@ -2,8 +2,8 @@
 <head>
 <link rel="stylesheet" type="text/css" href="arkaplan.css">
 </head>
-<body bgcolor="#333333">
-
+<body background="Resim/Arka/resim.jpg">
+<center>
 <?php
 
 if(isset($_POST["kulad"])&& (isset($_POST["sifre"]))){
